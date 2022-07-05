@@ -45,9 +45,3 @@ void print_times_table(int n)
 		}
 	}
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Secur
