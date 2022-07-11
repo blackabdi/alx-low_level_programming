@@ -7,19 +7,13 @@
  * @n: is the number of elements OF the array to be printed
  * Return: a and n inputs
  */
-void print_array(int *, int);
-
-/**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
- */
-int main(void)
+void print_array(int *a, int n)
 {
-	int array[5] = {
-		-198, 298, 402, -1024, 98
-	};
+	int i;
 
-	print_array(array, 5);
-	return (0);
+	for (i = 0; i < (n - 1); i++)
+		printf("%d, ", a[i]);
+		if (i == (n - 1))
+			printf("%d", a[n - 1]);
+	printf("\n");
 }
